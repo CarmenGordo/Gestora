@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.web.WebView?>
+
+<StackPane fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="401.0" prefWidth="517.0" styleClass="fondo" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControladorModalInformes">
+   <children>
+      <Pane prefHeight="402.0" prefWidth="517.0">
+         <children>
+            <ToolBar prefHeight="42.0" prefWidth="517.0" styleClass="menu">
+              <items>
+                  <CheckBox fx:id="checkBox" mnemonicParsing="false" styleClass="texto" text="Incrustado" />
+                  <TextField fx:id="filtro" prefHeight="26.0" prefWidth="112.0" />
+                <Button fx:id="btnInforme" onAction="#btnInforme" styleClass="btnMenu" text="_Informe " />
+                  <Button fx:id="btnInformeCondicional" onAction="#btnInformeCondicional" styleClass="btnMenu" text="Infor. _Condicional" />
+                  <ChoiceBox fx:id="btnChoiceBox" prefHeight="26.0" prefWidth="95.0" styleClass="combo" />
+              </items>
+            </ToolBar>
+            <WebView fx:id="webView" layoutX="8.0" layoutY="50.0" prefHeight="342.0" prefWidth="499.0" />
+         </children>
+      </Pane>
+   </children>
+</StackPane>

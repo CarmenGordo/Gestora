@@ -1,0 +1,126 @@
+.root {
+    azulClaro: #86e4f9;
+    azul:  #2bcdf2;
+    azulOscuro: #4c70c1;
+    verdeClaro: #DDFBD2;
+    verde: #B4E5A3;
+    verdeOscuro: #8ACF74;
+    moradoClaro: #c1b4ea;
+    morado: #a18ae8;
+    moradoOscuro: #775CB7;
+    grisClaro: #eaeaea;
+    gris: #9d9b9a;
+    grisOscuro: #5C5857;
+}
+
+
+
+/* Btn  normal */
+.button {
+    -fx-background-color: morado; 
+    -fx-text-fill: white; 
+    -fx-font-size: 14px;  
+}
+
+
+.logo_fondo{
+    -fx-background-color: white;
+}
+
+.fondo{
+    -fx-background-color: grisClaro;
+}
+
+
+/* textos */
+.text{
+    -fx-text-fill: white;
+}
+
+
+
+
+/* toggle btn tema/modo */
+#fondoModo {
+    -fx-fill: azulClaro;
+    -fx-transition: fill 1s;
+}
+#circuloModo {
+    -fx-fill: white;
+    -fx-translate-x: 0;
+    -fx-transition: translateX 1s;
+}
+#btnModo {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+    -fx-border-width: 0;
+}
+
+/* combo */
+.combo{
+    -fx-background-color: azulClaro;
+     -fx-text-fill: white;
+}
+.combo .list-cell {
+    -fx-background-color: azulClaro;
+    -fx-text-fill: white;
+}
+
+.combo .list-cell:selected {
+    -fx-background-color: white;
+    -fx-text-fill: black;
+}
+
+
+
+
+
+/* menu */
+.menu{
+    -fx-background-color: white; 
+}
+
+.btnMenu{
+    -fx-background-color: azulClaro; 
+}
+.btnMenu:hover {
+    -fx-background-color: azul;
+}
+
+
+
+.btnPaneBotonera{
+    -fx-background-color: verde;
+    -fx-text-fill: white;
+}
+.btnPaneBotonera:hover{
+    -fx-background-color: verdeOscuro;
+}
+
+
+
+#paneBotonera{
+    -fx-background-color: white;
+}
+
+
+/* tabs y tablas */
+.tab{
+    -fx-background-color: moradoClaro;
+    -fx-border-color: transparent;
+    -fx-text-base-color: white;
+}
+.tabla{
+    -fx-background-color: white;
+    -fx-border-color: transparent;
+}
+.tab:selected {
+    -fx-background-color: morado;
+}
+
+.fondoPantalla{
+    -fx-background-color: white;
+}
+
+
+

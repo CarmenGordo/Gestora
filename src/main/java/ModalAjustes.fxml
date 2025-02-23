@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane fx:id="modalAjustes" prefHeight="238.0" prefWidth="320.0" styleClass="fondo" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControladorModalAjustes">
+    <Button fx:id="btnCerrarAjustes" alignment="TOP_RIGHT" layoutX="280.0" layoutY="14.0" onAction="#cerrarModalAjustes" styleClass="btnMenu" text="X" />
+    <VBox alignment="CENTER" spacing="10" />
+    
+    <Pane fx:id="paneCreditos" layoutX="1.0" layoutY="153.0" prefHeight="50.0" prefWidth="328.0">
+        <Label fx:id="textCreditos" alignment="CENTER" layoutY="17.0" prefHeight="0.0" prefWidth="328.0" styleClass="texto" text="Creado por: Carmen Gordo" textAlignment="CENTER" />
+    </Pane>
+     <Button fx:id="btnSalir" layoutX="145.0" layoutY="127.0" onAction="#salir" styleClass="btnMenu" text="Salir" />
+     <Button fx:id="btnVerCreditos" layoutX="123.0" layoutY="93.0" onAction="#verCreditos" styleClass="btnMenu" text="Ver créditos" />
+
+</Pane>
